@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;}
+
+#wrap .section:nth-child(1){
+    background: url(img/포트폴리오01.jpg) center/cover;
+}
+/* #wrap .section:nth-child(1) p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+} */
+
+#wrap .section:nth-child(2){
+    background: url(img/포트폴리오01.jpg) center/cover;
+}
+
+
+#wrap .section:nth-child(3){background-color: beige;}
+#wrap .section:nth-child(3) .slide:nth-child(1){
+    background: url(https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_960_720.jpg) center/cover;
+}
+#wrap .section:nth-child(3) .slide:nth-child(2){
+    background: url(https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886_960_720.jpg) center/cover;
+}
+
+
+
+#wrap .section:last-child{
+    background: url(img/포트폴리오99.jpg) center/cover;
+}
